@@ -75,3 +75,21 @@
   padding: 10px 25px;
 }
 
+
+ .card {
+     transition: transform 0.3s, box-shadow 0.3s;
+ }
+
+ .card:hover {
+     transform: translateY(-10px);
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+ }
+
+
+ blockquote {
+     background: #fff;
+     border-radius: 15px;
+     padding: 20px;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ }
+
