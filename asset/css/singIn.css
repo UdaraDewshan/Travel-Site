@@ -1,0 +1,40 @@
+#register {
+    background: #f8f9fa;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.btn-warning {
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.navbar {
+     background: rgba(0, 0, 0, 0.7) !important;
+ }
+
+ .navbar .nav-link {
+     color: #fff !important;
+     margin-right: 15px;
+     transition: 0.3s;
+ }
+
+ .navbar .nav-link:hover {
+     color: #ffc107 !important;
+ }
+
+ .navbar .btn {
+  border-radius: 20px;
+  padding: 6px 15px;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .btn:hover {
+  background-color: #e0a800;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
